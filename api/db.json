@@ -75,25 +75,25 @@
       "image": "https://emporiodacerveja.vtexassets.com/arquivos/ids/175042-1200-auto?width=1200&height=auto&aspect=true"
     },
     {
-      "title": "Pepsi",
-      "price": "R$ 2,90",
-      "description": "Pepsi Tradicional",
-      "image": "https://cdn.awsli.com.br/1000x1000/1330/1330028/produto/51587140/d638c6af0a.jpg",
-      "id": 8
+      "title": "Kit Presente",
+      "price": "R$ 19,90",
+      "description": "Kit Presente Patagônia Com Copo",
+      "image": "https://emporiodacerveja.vtexassets.com/arquivos/ids/177460-1200-auto?width=1200&height=auto&aspect=true",
+      "id": 12
     },
     {
-      "title": "Pepsi",
-      "price": "R$ 3,50",
-      "description": "Pepsi Twist",
-      "image": "https://assets.partyking.org/img/products/1300/pepsi-twist-1.jpg",
-      "id": 10
+      "title": "Brahma",
+      "price": "R$ 35,88",
+      "description": "Cerveja Brahma Duplo Malte 350ml Pack (12 Unidades)",
+      "image": "https://emporiodacerveja.vtexassets.com/arquivos/ids/175907-800-auto?width=800&height=auto&aspect=true",
+      "id": 13
     },
     {
-      "title": "Pepsi",
-      "price": "R$ 8,90",
-      "description": "Pepsi Café ",
-      "image": "https://img.srgcdn.com/e//R1BBWVRpT0kyOXB2RVdYTTdJNk4ucG5n.jpg",
-      "id": 11
+      "title": "Becks",
+      "price": "R$ 35,92",
+      "description": "Cerveja Beck's 350ml Pack (8 unidades)",
+      "image": "https://emporiodacerveja.vtexassets.com/arquivos/ids/175559-800-auto?width=800&height=auto&aspect=true",
+      "id": 14
     }
   ]
 }
