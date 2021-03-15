@@ -1,46 +1,74 @@
-# Getting Started with Create React App
+# Beer Emporium Administrator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
 
-## Available Scripts
+Beer Emporium Administrator is a website made in React, to manage users and products. Users are divided into two levels, (admin) who have full access to the site, being able to register new products, how to remove also, and register users with their access level. Users (editor) have more restricted access, not being able to access and register users, such as removing products, only being able to register new products.
 
-In the project directory, you can run:
+### Login
+Use these users to login to the site:
 
-### `yarn start`
+#### Login administrador
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+email: helen@facebook.com | senha: 123123
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### Login editor
 
-### `yarn test`
+email: mauricio@google.com | senha: 123123
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Challenge description: [https://gist.github.com/jenicarvalho/1cc50b46f853be12be660b429ce487a4](https://gist.github.com/jenicarvalho/1cc50b46f853be12be660b429ce487a4)
 
-### `yarn build`
+## Getting started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Before you begin, you will need to have the following tools installed on your machine:
+[Git] (https://git-scm.com), [Node.js] (https://nodejs.org/en/).
+In addition, it is good to have an editor to work with the code like [VSCode] (https://code.visualstudio.com/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🎲 Running the Backend (API)
 
-### `yarn eject`
+```bash
+# Clone this repository
+$ git clone https://github.com/danielfranchi/abinbev-projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Access the project folder in the terminal/cmd
+$ cd abinbev-projeto
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Go to the folder api
+$ cd api
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Install the dependencies
+$ npm install
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Run the application in development mode
+$ json-server db.json -m ./node_modules/json-server-auth -r routes.json --port 4000
 
-## Learn More
+# The server will start at the port:4000 - access <http://localhost:4000>
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### :computer: Running the Front-End (React)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+# Clone this repository
+$ git clone https://github.com/danielfranchi/abinbev-projeto
+
+# Access the project folder in the terminal/cmd
+$ cd abinbev-projeto
+
+# Install the dependencies
+$ npm install
+
+# Run the application in development mode
+$ npm start
+
+# The server will start at the port:3000 - access <http://localhost:3000>
+```
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Redux](https://react-redux.js.org/)
