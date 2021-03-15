@@ -4,6 +4,17 @@
 
 Beer Emporium Administrator is a website made in React, to manage users and products. Users are divided into two levels, (admin) who have full access to the site, being able to register new products, how to remove also, and register users with their access level. Users (editor) have more restricted access, not being able to access and register users, such as removing products, only being able to register new products.
 
+### Login
+Use these users to login to the site:
+
+#### Login administrador
+
+email: helen@facebook.com | senha: 123123
+
+#### Login editor
+
+email: mauricio@google.com | senha: 123123
+
 * Challenge description: [https://gist.github.com/jenicarvalho/1cc50b46f853be12be660b429ce487a4](https://gist.github.com/jenicarvalho/1cc50b46f853be12be660b429ce487a4)
 
 ## Getting started
