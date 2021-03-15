@@ -1,0 +1,48 @@
+.overview-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  width: 80%;
+  flex-direction: row;
+}
+
+.overview {
+  background: white;
+  width: 300px;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 5px;
+}
+
+.overview h3 {
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.overview span {
+  display: block;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.overview small {
+  color: #888;
+}
+
+.overview-home {
+  padding: 100px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.text-user p {
+  text-align: center;
+  margin: 20px;
+  padding: 0px;
+  font-size: 20px;
+}
