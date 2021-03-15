@@ -13,6 +13,13 @@
       "name": "Maricio",
       "role": "editor",
       "id": 2
+    },
+    {
+      "email": "user@gmail.com",
+      "password": "$2a$10$kdjAY7Yc.59.2pWXp.B56.y7FVhhEmrX2v8g9qrKtvKV1IpTMg4h6",
+      "name": "user",
+      "role": "admin",
+      "id": 3
     }
   ],
   "register": [],
@@ -68,11 +75,25 @@
       "image": "https://emporiodacerveja.vtexassets.com/arquivos/ids/175042-1200-auto?width=1200&height=auto&aspect=true"
     },
     {
-      "title": "Pack Cerveja Michelob Ultra Light Lager 355ml (6 unidades)",
-      "price": "R$ 29,94",
-      "description": "Michelob Ultra",
-      "image": "https://emporiodacerveja.vtexassets.com/arquivos/ids/179041-1200-auto?width=1200&height=auto&aspect=true",
-      "id": 7
+      "title": "Pepsi",
+      "price": "R$ 2,90",
+      "description": "Pepsi Tradicional",
+      "image": "https://cdn.awsli.com.br/1000x1000/1330/1330028/produto/51587140/d638c6af0a.jpg",
+      "id": 8
+    },
+    {
+      "title": "Pepsi",
+      "price": "R$ 3,50",
+      "description": "Pepsi Twist",
+      "image": "https://assets.partyking.org/img/products/1300/pepsi-twist-1.jpg",
+      "id": 10
+    },
+    {
+      "title": "Pepsi",
+      "price": "R$ 8,90",
+      "description": "Pepsi Café ",
+      "image": "https://img.srgcdn.com/e//R1BBWVRpT0kyOXB2RVdYTTdJNk4ucG5n.jpg",
+      "id": 11
     }
   ]
 }

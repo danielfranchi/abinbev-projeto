@@ -2,14 +2,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
   width: 80%;
   flex-direction: row;
 }
 
 .beer {
   background: white;
-
   width: 300px;
   text-align: center;
   border: 1px solid #ddd;
@@ -42,6 +40,7 @@
   color: #5f9ea0;
   font-size: 15px;
   font-weight: bold;
+  outline-style: none;
 }
 
 .home {

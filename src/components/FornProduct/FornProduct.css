@@ -3,10 +3,6 @@
   border-radius: 3px;
   border: 1px solid #e6e6e6;
   padding: 16px;
-  /* margin-bottom: 20px; */
-  /* width: 50%; */
-  /* margin: 0, auto; */
-
   max-width: 925px;
   padding: 15px 0;
   margin: 50px auto;
@@ -26,6 +22,7 @@
   border: 1px solid #ddd;
   margin-bottom: 10px;
   padding: 5px;
+  outline-style: none;
 }
 
 .form button {
