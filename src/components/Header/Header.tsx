@@ -6,8 +6,6 @@ import { useSelector } from "react-redux";
 import "./Header.css";
 
 const Header = () => {
-  const { pathname } = window.location;
-
   const role = useSelector((state: StoreToken) => state.dateToken.role);
 
   const [token, setToken] = useState(false);
@@ -60,13 +58,12 @@ const Header = () => {
                   Home
                 </NavLink>
               </li>
-              {pathname === "/home" && (
-                <li>
-                  <NavLink to="/" exact onClick={removeToken}>
-                    Sair
-                  </NavLink>
-                </li>
-              )}
+
+              <li>
+                <NavLink to="/" exact onClick={removeToken}>
+                  Sair
+                </NavLink>
+              </li>
             </ul>
           </nav>
         )}

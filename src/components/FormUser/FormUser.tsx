@@ -77,8 +77,8 @@ const FormUser = () => {
   return (
     <div className="form">
       <p>Cadastrar Usuario</p>
-      <input type="text" placeholder="e-mail" ref={inputMail} />
-      <input type="text" placeholder="senha" ref={inputPassword} />
+      <input type="email" placeholder="e-mail" ref={inputMail} />
+      <input type="password" placeholder="senha" ref={inputPassword} />
       <input type="text" placeholder="nome" ref={inputName} />
       <input type="text" placeholder="role" ref={inputRole} />
 

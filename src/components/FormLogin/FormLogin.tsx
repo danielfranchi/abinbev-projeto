@@ -38,14 +38,20 @@ const FormLogin = () => {
       password: senha.current?.value,
     };
 
-    if (email.current?.value === "" || senha.current?.value === "") {
-      toast.error("Usuario Invalido");
-    }
+    // if (email.current?.value === "" || senha.current?.value === "") {
+    //   toast.error("Usuario Invalido");
+    // }
 
-    axios.post("http://localhost:4000/login", requisicao).then((resposta) => {
-      setUser(decodeToken(resposta.data.accessToken));
-      localStorage.setItem("token", resposta.data.accessToken);
-    });
+    axios
+      .post("http://localhost:4000/login", requisicao)
+      .then((resposta) => {
+        setUser(decodeToken(resposta.data.accessToken));
+        localStorage.setItem("token", resposta.data.accessToken);
+      })
+      .catch((erro) => {
+        console.log(erro);
+        toast.error("Usuário ou senha invalido");
+      });
   };
 
   return (
